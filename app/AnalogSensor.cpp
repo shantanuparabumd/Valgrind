@@ -11,6 +11,7 @@
 
 #include "../include/AnalogSensor.hpp"
 #include <numeric>
+#include <ostream>
 #include <vector>
 
 AnalogSensor::AnalogSensor(unsigned int samples)
@@ -18,6 +19,7 @@ AnalogSensor::AnalogSensor(unsigned int samples)
 }
 
 AnalogSensor::~AnalogSensor() {
+    std::cout << "Destructor Called" << std::endl;
 }
 
 int AnalogSensor::Read() {
@@ -25,6 +27,7 @@ int AnalogSensor::Read() {
 
     double result =
     std::accumulate(readings->begin(), readings->end(), 0.0)/readings->size();
+    delete readings;
     return result;
 }
 

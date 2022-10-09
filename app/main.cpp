@@ -12,12 +12,14 @@
 #include "../include/AnalogSensor.hpp"
 
 int main() {
-    AnalogSensor lightSensor(5);
-    std::cout << "Averaged sensor reading: " << lightSensor.Read() << std::endl;
-    bool terminator = false;
+    AnalogSensor* lightSensor = new AnalogSensor(5);
+    std::cout << "Averaged sensor reading: " <<
+    lightSensor->Read() << std::endl;
+    bool terminator = true;
     if ( terminator ) {
         std::cout << "DONE" << std::endl;
     }
+    delete lightSensor;
     return 0;
 }
 
