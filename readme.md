@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/shantanuparabumd/Valgrind/badge.svg?branch=main)](https://coveralls.io/github/shantanuparabumd/Valgrind?branch=main)
 # Valgrind Exercise
 Author- Shantanu Parab sparab@umd.edu
 ***
