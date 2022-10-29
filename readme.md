@@ -1,3 +1,4 @@
+[![Build Status](https://github.com/shantanuparabumd/Valgrind/actions/workflows/build_and_coveralls.yml/badge.svg)](https://github.com/shantanuparabumd/Valgrind/actions/workflows/build_and_coveralls.yml)
 [![Coverage Status](https://coveralls.io/repos/github/shantanuparabumd/Valgrind/badge.svg?branch=main)](https://coveralls.io/github/shantanuparabumd/Valgrind?branch=main)
 # Valgrind Exercise
 Author- Shantanu Parab sparab@umd.edu
